@@ -2,6 +2,32 @@
 
 This index explains the sequence of theories currently organized in my `publications/` archive. The collection is not a random set of isolated manuscripts. It records a research line that begins with mathematical stability and reformulation, moves through structural decomposition, and culminates in layered optimization under noise.
 
+## Highlight Results
+
+The archive includes mathematical manuscripts, executable experiments, and visual demonstrations. A few of the most immediately striking results from `T07_GONM` are shown below.
+
+| Atomic structure | Logistics routing |
+| --- | --- |
+| ![Ar13 atomic structure](T07_GONM/results/gonm_atomic_structure_argon13/gonm_atomic_structure_argon13.png) | ![Geometric logistics routing](T07_GONM/results/gonm_logistics_vrp/gonm_logistics_vrp.png) |
+| `Ar13` Lennard-Jones structure with near-reference final energy. | Vehicle-routing demonstration with `25.31%` path-length reduction. |
+
+| Satellite control | Quantum ground state |
+| --- | --- |
+| ![Satellite attitude control](T07_GONM/results/gonm_satellite_attitude_control/gonm_satellite_attitude_control.png) | ![Quantum ground-state optimization](T07_GONM/results/gonm_quantum_ground_state/gonm_quantum_ground_state.png) |
+| Attitude-control tuning under disturbances with a large gain over PID baseline. | Variational search reaching a substantially lower energy than the local baseline. |
+
+| Protein folding | Smart-grid dispatch |
+| --- | --- |
+| ![Protein folding demonstration](T07_GONM/results/gonm_protein_folding/gonm_protein_folding.png) | ![Smart-grid redispatch](T07_GONM/results/gonm_smart_grid_dispatch/gonm_smart_grid_dispatch.png) |
+| Coarse-grained folding demonstration with compact final configuration. | Reduced redispatch example with improved objective and lower line stress. |
+
+These examples are meant to make the archive visually legible at a glance. The broader context, caveats, and supporting scripts remain organized inside `T07_GONM/results/`, `T07_GONM/simulations/`, and `T07_GONM/experiments/`.
+
+## Zenodo Records
+
+- Main `T07_GONM` article record: https://zenodo.org/records/19290813
+- Supplementary simulation atlas and computational results: https://zenodo.org/records/19291319
+
 ## Sequence Overview
 
 ### T01_CDRCGM
