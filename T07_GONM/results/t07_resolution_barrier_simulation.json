@@ -1,0 +1,39 @@
+{
+  "theory": "T07_GONM",
+  "simulation": "resolution_barrier_profile",
+  "sigma": 0.2,
+  "m": 8,
+  "delta": 0.05,
+  "rows": [
+    {
+      "h": 0.1,
+      "grad_scale": 0.05,
+      "differential_snr": 0.07071067811865477,
+      "ranking_snr": 0.7071067811865476
+    },
+    {
+      "h": 0.05,
+      "grad_scale": 0.025,
+      "differential_snr": 0.01767766952966369,
+      "ranking_snr": 0.7071067811865476
+    },
+    {
+      "h": 0.025,
+      "grad_scale": 0.0125,
+      "differential_snr": 0.004419417382415923,
+      "ranking_snr": 0.7071067811865476
+    },
+    {
+      "h": 0.0125,
+      "grad_scale": 0.00625,
+      "differential_snr": 0.0011048543456039807,
+      "ranking_snr": 0.7071067811865476
+    },
+    {
+      "h": 0.00625,
+      "grad_scale": 0.003125,
+      "differential_snr": 0.0002762135864009952,
+      "ranking_snr": 0.7071067811865476
+    }
+  ]
+}

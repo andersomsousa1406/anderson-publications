@@ -1,0 +1,57 @@
+{
+  "seed": 97,
+  "problem": "control_inverted_pendulum_feedback_tuning",
+  "interpretation": "Robust feedback-gain tuning for an inverted pendulum under strong wind gusts.",
+  "baseline_pd": {
+    "gains": [
+      16.0,
+      5.2,
+      0.0,
+      0.0
+    ],
+    "objective": 1.098000247829732,
+    "terms": {
+      "action_like": 1.098000247829732,
+      "tracking": 0.2351767202197677,
+      "angular": 0.054105948574421615,
+      "control": 0.6695613526026708,
+      "integral_cost": 0.019258118018628693,
+      "terminal": 0.11031374258245456,
+      "overshoot": 0.009584365831788582,
+      "flip_penalty": 0.0,
+      "final_theta": 0.028492292703101763,
+      "final_omega": 0.48999018697818547,
+      "max_abs_theta": 0.7820448394371916,
+      "rms_theta": 0.48495022447645875
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 0.5681338947182606,
+    "final_gains": [
+      34.0,
+      12.0,
+      8.0,
+      3.386487362907989
+    ],
+    "final_energy": 0.3202852160326228,
+    "terms": {
+      "action_like": 0.3202852160326228,
+      "tracking": 0.02398742042193544,
+      "angular": 0.007303665630098137,
+      "control": 0.2669521484409756,
+      "integral_cost": 3.369267941386599e-05,
+      "terminal": 0.022008288860199718,
+      "overshoot": 0.0,
+      "flip_penalty": 0.0,
+      "final_theta": 0.08473612074628015,
+      "final_omega": 0.06504187394185802,
+      "max_abs_theta": 0.36,
+      "rms_theta": 0.15487872811311254
+    },
+    "evals": 7464,
+    "runtime_ms": 24621.61339999875
+  },
+  "comparison": {
+    "gonm_minus_pd": -0.7777150317971091
+  }
+}

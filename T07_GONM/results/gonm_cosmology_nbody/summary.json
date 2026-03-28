@@ -1,0 +1,42 @@
+{
+  "seed": 59,
+  "problem": "cosmology_nbody_stability",
+  "interpretation": "Reduced large-scale gravitational clustering with a naive near-singular evolution compared against GONM structural regularization.",
+  "body_count": 48,
+  "naive_nbody": {
+    "min_pair_distance": 0.0031213418498934244,
+    "unstable_step": 1,
+    "final_kinetic_mean": 12.044897833659212
+  },
+  "baseline_local": {
+    "best_action_like": -250.53147121053127,
+    "terms": {
+      "action_like": -250.53147121053127,
+      "gravitational": -519.1778385248945,
+      "barrier": 268.43786125658727,
+      "shell_penalty": 0.19779043779138275,
+      "radial_spread": 0.010715619984561189,
+      "min_pair_distance": 0.6684623388474509,
+      "mean_pair_distance": 2.7336000929383606
+    }
+  },
+  "gonm": {
+    "phase1_best_action_like": -131.93761549022034,
+    "final_action_like": -250.29565521346137,
+    "terms": {
+      "action_like": -250.29565521346137,
+      "gravitational": -517.4981554951823,
+      "barrier": 266.9948667058043,
+      "shell_penalty": 0.19681293794781798,
+      "radial_spread": 0.010820637968821876,
+      "min_pair_distance": 0.6447885602883299,
+      "mean_pair_distance": 2.7443503597543675
+    },
+    "evals": 15360,
+    "runtime_ms": 1694424.824900001
+  },
+  "comparison": {
+    "gonm_minus_baseline": 0.2358159970698921,
+    "baseline_start_action_like": -122.47299461304462
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "seed": 173,
+  "problem": "smart_grid_dispatch",
+  "interpretation": "Economic redispatch under a transmission-line outage in a reduced smart-grid network.",
+  "outage_edge_index": 2,
+  "baseline": {
+    "dispatch": [
+      [
+        1.8,
+        0.0
+      ],
+      [
+        1.3000000000000003,
+        0.0
+      ],
+      [
+        0.05,
+        0.0
+      ],
+      [
+        1.6,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "objective": 122.85000000000002,
+    "terms": {
+      "action_like": 122.85000000000002,
+      "thermal_cost": 122.85000000000002,
+      "battery_cost": 0.0,
+      "balance_penalty": 8.874685183736383e-30,
+      "overload_penalty": 0.0,
+      "reserve_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "power_balance": 2.220446049250313e-16,
+      "max_flow_utilization": 0.34868369572513364,
+      "reserve_margin": 4.3,
+      "line_flows": [
+        0.18750031562322406,
+        0.4000000749986313,
+        0.0,
+        0.4499993625016972,
+        0.18749894062864308,
+        0.6624990218777539,
+        0.28749976562588675
+      ]
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 139.34521570113893,
+    "dispatch": [
+      [
+        1.8,
+        0.25
+      ],
+      [
+        0.37323318304240605,
+        0.0
+      ],
+      [
+        0.05,
+        0.2
+      ],
+      [
+        1.6,
+        0.0
+      ],
+      [
+        0.0,
+        0.3
+      ],
+      [
+        0.0,
+        0.1
+      ]
+    ],
+    "final_energy": 103.86129507863153,
+    "terms": {
+      "action_like": 103.86129507863153,
+      "thermal_cost": 96.90052912518738,
+      "battery_cost": 5.8999999999999995,
+      "balance_penalty": 1.0607659534441403,
+      "overload_penalty": 0.0,
+      "reserve_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "power_balance": -0.07676681695759424,
+      "max_flow_utilization": 0.29558740987813953,
+      "reserve_margin": 4.376766816957594,
+      "line_flows": [
+        0.5383833596154559,
+        0.199999823232896,
+        0.0,
+        0.44999943838453893,
+        0.11161602296076255,
+        0.5616160787684651,
+        -0.08838330380775336
+      ]
+    },
+    "evals": 6972,
+    "runtime_ms": 6058.016499999212
+  },
+  "comparison": {
+    "gonm_minus_baseline": -18.988704921368495
+  }
+}

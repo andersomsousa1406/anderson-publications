@@ -1,0 +1,32 @@
+{
+  "theory": "T03_MQLM",
+  "simulation": "mqlm_vs_trapezoid_on_exp_x2",
+  "reference_integral": 1.4626517459185078,
+  "rows": [
+    {
+      "subintervals": 4,
+      "mqlm_error": 0.015272952234864023,
+      "trapezoid_error": 0.028027115780347556
+    },
+    {
+      "subintervals": 8,
+      "mqlm_error": 0.00381126562275802,
+      "trapezoid_error": 0.0070605305111575145
+    },
+    {
+      "subintervals": 16,
+      "mqlm_error": 0.0009523889483438186,
+      "trapezoid_error": 0.0017685642309739347
+    },
+    {
+      "subintervals": 32,
+      "mqlm_error": 0.0002380706454838677,
+      "trapezoid_error": 0.0004423566879208085
+    },
+    {
+      "subintervals": 64,
+      "mqlm_error": 5.9515993510617093e-05,
+      "trapezoid_error": 0.0001106026592190279
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "seed": 71,
+  "problem": "quantum_wavefunction_optimization",
+  "interpretation": "Variational optimization of a normalized wavefunction under an effective many-electron Hartree-like functional.",
+  "electron_count_effective": 6,
+  "basis_size": 6,
+  "baseline_local": {
+    "best_energy": 0.8616752985512448,
+    "max_norm_drift": 3.8438014531745823,
+    "terms": {
+      "total": 0.27465151112435193,
+      "kinetic": 0.18259881030444197,
+      "external": -0.7513631827848428,
+      "interaction": 0.7877208058488054,
+      "localization": 0.0556950777559473
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 0.3149318425409523,
+    "final_energy": 0.0666599473271177,
+    "terms": {
+      "total": 0.0666599473271177,
+      "kinetic": 0.22141367572130397,
+      "external": -0.8639249167914363,
+      "interaction": 0.6560651668315515,
+      "localization": 0.05310602156569859
+    },
+    "evals": 12936,
+    "runtime_ms": 408747.4569000006
+  },
+  "comparison": {
+    "gonm_minus_baseline": -0.7950153512241271,
+    "baseline_start_energy": 1.731919549257051
+  }
+}

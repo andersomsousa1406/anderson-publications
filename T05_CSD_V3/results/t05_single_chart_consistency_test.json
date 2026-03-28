@@ -1,0 +1,7 @@
+{
+  "theory": "T05_CSD_V3",
+  "test": "single_chart_forward_inverse_consistency",
+  "alpha": 0.35,
+  "max_recovery_error": 7.28550816809042e-16,
+  "mean_recovery_error": 2.0450634816344362e-16
+}

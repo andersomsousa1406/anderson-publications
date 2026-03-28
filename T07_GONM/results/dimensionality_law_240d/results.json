@@ -1,0 +1,388 @@
+{
+  "phase1_sweep_240d": [
+    {
+      "phase1_ratio": 0.52,
+      "summary": {
+        "best_true_mean": 5.775201348370168,
+        "dist_mean": 17.56944992850166,
+        "residual_ratio_mean": 0.5435590399912732
+      },
+      "runs": [
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p52",
+          "seed": 100,
+          "best_true_value": 5.378838546929337,
+          "best_noisy_value": 5.345718545779192,
+          "distance_to_nearest_minimizer": 15.418363426237445,
+          "final_hit_global_basin": false,
+          "evals": 1619,
+          "runtime_ms": 41.46989999935613,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.52,
+          "initial_true_value": 10.64076859712561,
+          "residual_ratio": 0.5054934235091177
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p52",
+          "seed": 137,
+          "best_true_value": 6.080413290597637,
+          "best_noisy_value": 6.048714415310885,
+          "distance_to_nearest_minimizer": 19.236268332479362,
+          "final_hit_global_basin": false,
+          "evals": 1619,
+          "runtime_ms": 39.668600002187304,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.52,
+          "initial_true_value": 10.564926485656907,
+          "residual_ratio": 0.5755282158236019
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p52",
+          "seed": 174,
+          "best_true_value": 5.524112959503,
+          "best_noisy_value": 5.329035393944344,
+          "distance_to_nearest_minimizer": 16.13185863300131,
+          "final_hit_global_basin": false,
+          "evals": 1619,
+          "runtime_ms": 38.59279999960563,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.52,
+          "initial_true_value": 10.875684730021948,
+          "residual_ratio": 0.5079324287742435
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p52",
+          "seed": 211,
+          "best_true_value": 6.117440596450699,
+          "best_noisy_value": 6.135078321776689,
+          "distance_to_nearest_minimizer": 19.49130932228852,
+          "final_hit_global_basin": false,
+          "evals": 1619,
+          "runtime_ms": 37.93089999817312,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.52,
+          "initial_true_value": 10.45212331207555,
+          "residual_ratio": 0.5852820918581295
+        }
+      ]
+    },
+    {
+      "phase1_ratio": 0.8,
+      "summary": {
+        "best_true_mean": 5.775201348370168,
+        "dist_mean": 17.56944992850166,
+        "residual_ratio_mean": 0.5435590399912732
+      },
+      "runs": [
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p80",
+          "seed": 100,
+          "best_true_value": 5.378838546929337,
+          "best_noisy_value": 5.345718545779192,
+          "distance_to_nearest_minimizer": 15.418363426237445,
+          "final_hit_global_basin": false,
+          "evals": 1907,
+          "runtime_ms": 45.38469999897643,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.64076859712561,
+          "residual_ratio": 0.5054934235091177
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p80",
+          "seed": 137,
+          "best_true_value": 6.080413290597637,
+          "best_noisy_value": 6.048714415310885,
+          "distance_to_nearest_minimizer": 19.236268332479362,
+          "final_hit_global_basin": false,
+          "evals": 1907,
+          "runtime_ms": 45.400499999232125,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.564926485656907,
+          "residual_ratio": 0.5755282158236019
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p80",
+          "seed": 174,
+          "best_true_value": 5.524112959503,
+          "best_noisy_value": 5.329035393944344,
+          "distance_to_nearest_minimizer": 16.13185863300131,
+          "final_hit_global_basin": false,
+          "evals": 1907,
+          "runtime_ms": 45.383100001345156,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.875684730021948,
+          "residual_ratio": 0.5079324287742435
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p80",
+          "seed": 211,
+          "best_true_value": 6.117440596450699,
+          "best_noisy_value": 6.135078321776689,
+          "distance_to_nearest_minimizer": 19.49130932228852,
+          "final_hit_global_basin": false,
+          "evals": 1907,
+          "runtime_ms": 45.47240000101738,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.45212331207555,
+          "residual_ratio": 0.5852820918581295
+        }
+      ]
+    },
+    {
+      "phase1_ratio": 0.9,
+      "summary": {
+        "best_true_mean": 5.774082025696703,
+        "dist_mean": 17.568666823513208,
+        "residual_ratio_mean": 0.5434530751535878
+      },
+      "runs": [
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p90",
+          "seed": 100,
+          "best_true_value": 5.378838546929337,
+          "best_noisy_value": 5.345718545779192,
+          "distance_to_nearest_minimizer": 15.418363426237445,
+          "final_hit_global_basin": false,
+          "evals": 1979,
+          "runtime_ms": 58.77739999777987,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.9,
+          "initial_true_value": 10.64076859712561,
+          "residual_ratio": 0.5054934235091177
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p90",
+          "seed": 137,
+          "best_true_value": 6.076005696091059,
+          "best_noisy_value": 6.102345840834499,
+          "distance_to_nearest_minimizer": 19.233566406636786,
+          "final_hit_global_basin": false,
+          "evals": 1979,
+          "runtime_ms": 47.553300002618926,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.9,
+          "initial_true_value": 10.564926485656907,
+          "residual_ratio": 0.5751110246095825
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p90",
+          "seed": 174,
+          "best_true_value": 5.524112959503,
+          "best_noisy_value": 5.329035393944344,
+          "distance_to_nearest_minimizer": 16.13185863300131,
+          "final_hit_global_basin": false,
+          "evals": 1979,
+          "runtime_ms": 54.07470000136527,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.9,
+          "initial_true_value": 10.875684730021948,
+          "residual_ratio": 0.5079324287742435
+        },
+        {
+          "surface": "ackley_240d",
+          "method": "gonm_p90",
+          "seed": 211,
+          "best_true_value": 6.117370900263417,
+          "best_noisy_value": 6.070858747073536,
+          "distance_to_nearest_minimizer": 19.49087882817729,
+          "final_hit_global_basin": false,
+          "evals": 1979,
+          "runtime_ms": 49.172299997735536,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.9,
+          "initial_true_value": 10.45212331207555,
+          "residual_ratio": 0.5852754237214074
+        }
+      ]
+    }
+  ],
+  "scaling": [
+    {
+      "dim": 24,
+      "method": "sim_anneal",
+      "summary": {
+        "best_true_mean": 8.704448266933118,
+        "dist_mean": 10.71407006925496,
+        "residual_ratio_mean": 0.8456816649598533
+      },
+      "wall_coeff": 1.7767880622032906,
+      "residual_wall_coeff": 0.17262404699824677
+    },
+    {
+      "dim": 24,
+      "method": "csd",
+      "summary": {
+        "best_true_mean": 5.199306077570401,
+        "dist_mean": 4.776933333273144,
+        "residual_ratio_mean": 0.505540306253903
+      },
+      "wall_coeff": 1.0613039088832448,
+      "residual_wall_coeff": 0.10319298289436683
+    },
+    {
+      "dim": 24,
+      "method": "gonm_p80",
+      "summary": {
+        "best_true_mean": 3.9533979945676974,
+        "dist_mean": 3.086562794308575,
+        "residual_ratio_mean": 0.38448340375016327
+      },
+      "wall_coeff": 0.8069839864027635,
+      "residual_wall_coeff": 0.07848234614636569
+    },
+    {
+      "dim": 24,
+      "method": "gonm_p90",
+      "summary": {
+        "best_true_mean": 3.956481480029871,
+        "dist_mean": 3.0864581672709392,
+        "residual_ratio_mean": 0.3847959674369229
+      },
+      "wall_coeff": 0.8076134002370648,
+      "residual_wall_coeff": 0.07854614794175604
+    },
+    {
+      "dim": 240,
+      "method": "sim_anneal",
+      "summary": {
+        "best_true_mean": 10.320799117768516,
+        "dist_mean": 44.33409430838425,
+        "residual_ratio_mean": 0.9707750022657748
+      },
+      "wall_coeff": 0.6662047183778277,
+      "residual_wall_coeff": 0.06266325694483021
+    },
+    {
+      "dim": 240,
+      "method": "csd",
+      "summary": {
+        "best_true_mean": 7.177747012919254,
+        "dist_mean": 24.801626271579835,
+        "residual_ratio_mean": 0.6749919733195182
+      },
+      "wall_coeff": 0.4633215774054384,
+      "residual_wall_coeff": 0.043570544524836254
+    },
+    {
+      "dim": 240,
+      "method": "gonm_p80",
+      "summary": {
+        "best_true_mean": 5.775201348370168,
+        "dist_mean": 17.56944992850166,
+        "residual_ratio_mean": 0.5435590399912732
+      },
+      "wall_coeff": 0.3727876440538713,
+      "residual_wall_coeff": 0.03508658515944487
+    },
+    {
+      "dim": 240,
+      "method": "gonm_p90",
+      "summary": {
+        "best_true_mean": 5.774082025696703,
+        "dist_mean": 17.568666823513208,
+        "residual_ratio_mean": 0.5434530751535878
+      },
+      "wall_coeff": 0.372715392085982,
+      "residual_wall_coeff": 0.03507974515858422
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "theory": "T05_CSD_V3",
+  "simulation": "single_chart_distortion_profile",
+  "rows": [
+    {
+      "alpha": 0.1,
+      "mapped_span": 4.192805516015163,
+      "max_local_distortion": 0.09999748749505355,
+      "mean_local_distortion": 0.04809848136275858
+    },
+    {
+      "alpha": 0.25,
+      "mapped_span": 4.482013790037908,
+      "max_local_distortion": 0.24999371873763399,
+      "mean_local_distortion": 0.12024620340689643
+    },
+    {
+      "alpha": 0.5,
+      "mapped_span": 4.9640275800758165,
+      "max_local_distortion": 0.49998743747526797,
+      "mean_local_distortion": 0.24049240681379289
+    },
+    {
+      "alpha": 0.75,
+      "mapped_span": 5.446041370113726,
+      "max_local_distortion": 0.7499811562129022,
+      "mean_local_distortion": 0.36073861022068926
+    }
+  ]
+}

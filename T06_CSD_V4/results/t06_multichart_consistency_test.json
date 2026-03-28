@@ -1,0 +1,21 @@
+{
+  "theory": "T06_CSD_V4",
+  "test": "multichart_fusion_consistency",
+  "anchor": [
+    0.25,
+    -0.1
+  ],
+  "left_chart_representation": [
+    -0.25,
+    -0.1
+  ],
+  "right_chart_representation": [
+    0.75,
+    -0.1
+  ],
+  "fused_reconstruction": [
+    0.25,
+    -0.1
+  ],
+  "fusion_error_norm": 0.0
+}

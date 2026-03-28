@@ -1,0 +1,42 @@
+{
+  "seed": 43,
+  "problem": "schwarzschild_relativistic_geodesic",
+  "interpretation": "Variational search for an equatorial geodesic-like trajectory near a Schwarzschild black hole.",
+  "horizon_radius": 2.0,
+  "photon_sphere_radius": 3.0,
+  "baseline_local": {
+    "best_action_like": 255.9443155654593,
+    "terms": {
+      "action_like": 255.9443155654593,
+      "residual_rms": 5.13053537074275,
+      "invariant_var": 0.03909854562750724,
+      "smoothness": 10944.8167787769,
+      "slope_penalty": 62.25246131701239,
+      "horizon_penalty": 0.023733301255847956,
+      "targeting_penalty": 3.146000000000001,
+      "periastron": 2.05,
+      "impact_proxy": 2.4014437711583234
+    }
+  },
+  "gonm": {
+    "phase1_best_action_like": 269.71880543897663,
+    "final_action_like": 15.737339928390321,
+    "terms": {
+      "action_like": 15.737339928390321,
+      "residual_rms": 1.1283085467765246,
+      "invariant_var": 0.00034890011586535184,
+      "smoothness": 542.5644476460739,
+      "slope_penalty": 4.334462330658305,
+      "horizon_penalty": 0.0,
+      "targeting_penalty": 1.9851669362482294,
+      "periastron": 4.0237996021462,
+      "impact_proxy": 5.3155221331498215
+    },
+    "evals": 15384,
+    "runtime_ms": 20608.759599999757
+  },
+  "comparison": {
+    "gonm_minus_baseline": -240.20697563706898,
+    "baseline_start_action_like": 2166.5359378130947
+  }
+}

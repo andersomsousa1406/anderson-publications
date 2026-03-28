@@ -1,0 +1,246 @@
+{
+  "phase1_sweep_1000d": [
+    {
+      "phase1_ratio": 0.8,
+      "summary": {
+        "best_true_mean": 5.939890532572197,
+        "dist_mean": 37.47789284555085,
+        "residual_ratio_mean": 0.56913738636093
+      },
+      "runs": [
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p80",
+          "seed": 100,
+          "best_true_value": 6.452707264053963,
+          "best_noisy_value": 6.54827298009043,
+          "distance_to_nearest_minimizer": 42.52364784989531,
+          "final_hit_global_basin": false,
+          "evals": 4949,
+          "runtime_ms": 173.29160000008414,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.51600742128371,
+          "residual_ratio": 0.6136080934094917
+        },
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p80",
+          "seed": 137,
+          "best_true_value": 5.674434647287896,
+          "best_noisy_value": 5.535937698077026,
+          "distance_to_nearest_minimizer": 35.0583338357814,
+          "final_hit_global_basin": false,
+          "evals": 4947,
+          "runtime_ms": 180.06609999793,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.444709979949467,
+          "residual_ratio": 0.5432831220953969
+        },
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p80",
+          "seed": 174,
+          "best_true_value": 5.6925296863747334,
+          "best_noisy_value": 5.661518183368435,
+          "distance_to_nearest_minimizer": 34.85169685097582,
+          "final_hit_global_basin": false,
+          "evals": 4949,
+          "runtime_ms": 170.95740000149817,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.8,
+          "initial_true_value": 10.34025998970775,
+          "residual_ratio": 0.5505209435779016
+        }
+      ]
+    },
+    {
+      "phase1_ratio": 0.95,
+      "summary": {
+        "best_true_mean": 5.939890532572197,
+        "dist_mean": 37.47789284555085,
+        "residual_ratio_mean": 0.56913738636093
+      },
+      "runs": [
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p95",
+          "seed": 100,
+          "best_true_value": 6.452707264053963,
+          "best_noisy_value": 6.54827298009043,
+          "distance_to_nearest_minimizer": 42.52364784989531,
+          "final_hit_global_basin": false,
+          "evals": 1086,
+          "runtime_ms": 40.953300002001924,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.95,
+          "initial_true_value": 10.51600742128371,
+          "residual_ratio": 0.6136080934094917
+        },
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p95",
+          "seed": 137,
+          "best_true_value": 5.674434647287896,
+          "best_noisy_value": 5.535937698077026,
+          "distance_to_nearest_minimizer": 35.0583338357814,
+          "final_hit_global_basin": false,
+          "evals": 1084,
+          "runtime_ms": 40.73399999833782,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.95,
+          "initial_true_value": 10.444709979949467,
+          "residual_ratio": 0.5432831220953969
+        },
+        {
+          "surface": "ackley_1000d",
+          "method": "gonm_p95",
+          "seed": 174,
+          "best_true_value": 5.6925296863747334,
+          "best_noisy_value": 5.661518183368435,
+          "distance_to_nearest_minimizer": 34.85169685097582,
+          "final_hit_global_basin": false,
+          "evals": 1086,
+          "runtime_ms": 42.092800002137665,
+          "phase1_best_true_value": null,
+          "phase1_distance_to_nearest_minimizer": null,
+          "phase1_hit_global_basin": null,
+          "phase1_basin_count": null,
+          "phase2_mode": null,
+          "final_selector_source": null,
+          "final_gauge_class": null,
+          "final_local_subclass": null,
+          "phase1_ratio": 0.95,
+          "initial_true_value": 10.34025998970775,
+          "residual_ratio": 0.5505209435779016
+        }
+      ]
+    }
+  ],
+  "scaling": [
+    {
+      "dim": 240,
+      "method": "sim_anneal",
+      "summary": {
+        "best_true_mean": 10.316961264136028,
+        "dist_mean": 44.11141164486421,
+        "residual_ratio_mean": 0.9648542707818285
+      },
+      "wall_coeff": 0.6659569859910975,
+      "residual_wall_coeff": 0.06228107537091872
+    },
+    {
+      "dim": 240,
+      "method": "csd",
+      "summary": {
+        "best_true_mean": 7.2231657526214725,
+        "dist_mean": 24.937852389048015,
+        "residual_ratio_mean": 0.6754259695382098
+      },
+      "wall_coeff": 0.4662533444466454,
+      "residual_wall_coeff": 0.04359855886029141
+    },
+    {
+      "dim": 240,
+      "method": "gonm_p80",
+      "summary": {
+        "best_true_mean": 5.6611215990099915,
+        "dist_mean": 16.928830130572706,
+        "residual_ratio_mean": 0.5296513560356544
+      },
+      "wall_coeff": 0.36542382789701333,
+      "residual_wall_coeff": 0.034188848020371074
+    },
+    {
+      "dim": 240,
+      "method": "gonm_p95",
+      "summary": {
+        "best_true_mean": 5.6611215990099915,
+        "dist_mean": 16.928830130572706,
+        "residual_ratio_mean": 0.5296513560356544
+      },
+      "wall_coeff": 0.36542382789701333,
+      "residual_wall_coeff": 0.034188848020371074
+    },
+    {
+      "dim": 1000,
+      "method": "sim_anneal",
+      "summary": {
+        "best_true_mean": 10.373822340199766,
+        "dist_mean": 89.85701307912224,
+        "residual_ratio_mean": 0.99432820877073
+      },
+      "wall_coeff": 0.3280490663696938,
+      "residual_wall_coeff": 0.031443418814709204
+    },
+    {
+      "dim": 1000,
+      "method": "csd",
+      "summary": {
+        "best_true_mean": 7.244172653549046,
+        "dist_mean": 51.008486067817216,
+        "residual_ratio_mean": 0.6943385726728287
+      },
+      "wall_coeff": 0.22908085348720836,
+      "residual_wall_coeff": 0.02195691356956485
+    },
+    {
+      "dim": 1000,
+      "method": "gonm_p80",
+      "summary": {
+        "best_true_mean": 5.939890532572197,
+        "dist_mean": 37.47789284555085,
+        "residual_ratio_mean": 0.56913738636093
+      },
+      "wall_coeff": 0.18783583134998716,
+      "residual_wall_coeff": 0.01799770442455789
+    },
+    {
+      "dim": 1000,
+      "method": "gonm_p95",
+      "summary": {
+        "best_true_mean": 5.939890532572197,
+        "dist_mean": 37.47789284555085,
+        "residual_ratio_mean": 0.56913738636093
+      },
+      "wall_coeff": 0.18783583134998716,
+      "residual_wall_coeff": 0.01799770442455789
+    }
+  ]
+}

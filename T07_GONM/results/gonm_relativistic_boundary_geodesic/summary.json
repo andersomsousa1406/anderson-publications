@@ -1,0 +1,49 @@
+{
+  "seed": 83,
+  "problem": "relativistic_boundary_geodesic",
+  "interpretation": "Boundary-value geodesic search in the equatorial Schwarzschild optical metric.",
+  "endpoints": {
+    "start": [
+      -10.0,
+      4.8
+    ],
+    "end": [
+      10.0,
+      4.8
+    ]
+  },
+  "baseline_local": {
+    "best_action_like": 28.378417743649216,
+    "terms": {
+      "action_like": 28.378417743649216,
+      "optical_length": 27.903293031479905,
+      "geodesic_residual": 0.11196884762488638,
+      "curvature_penalty": 3.8689423647356394e-05,
+      "horizon_penalty": 0.0,
+      "endpoint_slope_penalty": 0.004816864047388201,
+      "strong_field_reward": -1.3262472537932472e-09,
+      "min_radius": 5.47441067076283,
+      "max_deflection": 0.6796099643017097
+    }
+  },
+  "gonm": {
+    "phase1_best_action_like": 33.424101630393274,
+    "final_action_like": 28.17907463785861,
+    "terms": {
+      "action_like": 28.17907463785861,
+      "optical_length": 27.612683013640524,
+      "geodesic_residual": 0.13303215721133588,
+      "curvature_penalty": 0.00012144627313255032,
+      "horizon_penalty": 0.0,
+      "endpoint_slope_penalty": 0.007535117658113045,
+      "strong_field_reward": -7.697455878978705e-13,
+      "min_radius": 5.894336462918424,
+      "max_deflection": 1.1079854108735798
+    },
+    "evals": 12336,
+    "runtime_ms": 10100.761699999566
+  },
+  "comparison": {
+    "gonm_minus_baseline": -0.1993431057906072
+  }
+}

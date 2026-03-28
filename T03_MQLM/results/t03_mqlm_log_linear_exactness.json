@@ -1,0 +1,41 @@
+{
+  "theory": "T03_MQLM",
+  "test": "log_linear_exactness_on_exponential_family",
+  "interval": [
+    0.0,
+    1.0
+  ],
+  "rows": [
+    {
+      "k": 0.0,
+      "mqlm_integral": 1.0,
+      "exact_integral": 1.0,
+      "abs_error": 0.0
+    },
+    {
+      "k": 0.25,
+      "mqlm_integral": 1.136101666750966,
+      "exact_integral": 1.1361016667509656,
+      "abs_error": 4.440892098500626e-16
+    },
+    {
+      "k": 0.5,
+      "mqlm_integral": 1.2974425414002564,
+      "exact_integral": 1.2974425414002564,
+      "abs_error": 0.0
+    },
+    {
+      "k": 1.0,
+      "mqlm_integral": 1.718281828459045,
+      "exact_integral": 1.718281828459045,
+      "abs_error": 0.0
+    },
+    {
+      "k": 2.0,
+      "mqlm_integral": 3.194528049465325,
+      "exact_integral": 3.194528049465325,
+      "abs_error": 0.0
+    }
+  ],
+  "max_abs_error": 4.440892098500626e-16
+}

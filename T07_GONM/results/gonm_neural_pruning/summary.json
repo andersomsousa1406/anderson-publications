@@ -1,0 +1,61 @@
+{
+  "seed": 211,
+  "problem": "neural_pruning",
+  "interpretation": "Structured neural-network compression by optimizing a hidden-neuron pruning mask.",
+  "baseline_magnitude": {
+    "gates": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "objective": 0.45414107121459446,
+    "terms": {
+      "objective": 0.45414107121459446,
+      "train_loss": 0.4002275964468823,
+      "val_loss": 0.37814107121459445,
+      "train_accuracy": 0.795,
+      "val_accuracy": 0.8233333333333334,
+      "sparsity_mean": 0.4,
+      "binary_penalty": 0.0,
+      "active_neurons": 4
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 0.42415310985064364,
+    "gates": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.4299571187163305,
+      0.0,
+      0.0,
+      1.0,
+      0.6677718340801139,
+      0.0
+    ],
+    "final_energy": 0.3931410740939274,
+    "terms": {
+      "objective": 0.3931410740939274,
+      "train_loss": 0.33230392265773384,
+      "val_loss": 0.3136499108681469,
+      "train_accuracy": 0.8366666666666667,
+      "val_accuracy": 0.85,
+      "sparsity_mean": 0.40977289527964444,
+      "binary_penalty": 0.04669466064708765,
+      "active_neurons": 4
+    },
+    "evals": 6480,
+    "runtime_ms": 6575.950099999318
+  },
+  "comparison": {
+    "gonm_minus_magnitude": -0.06099999712066706
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "seed": 29,
+  "problem": "neural_hyperparameter_proxy",
+  "interpretation": "Synthetic validation-loss landscape with plateaus and local minima for neural hyperparameter search.",
+  "adam": {
+    "final_loss": 0.7107197615851205,
+    "best_loss": 0.7107197615849294,
+    "best_hyperparameters": {
+      "log10_learning_rate": -4.4,
+      "learning_rate": 3.9810717055349695e-05,
+      "dropout": 0.4489416055379039
+    }
+  },
+  "gonm": {
+    "final_loss": 0.4918407955674964,
+    "phase1_best_loss": 0.5048016309073117,
+    "energy_gain_vs_phase1": 0.012960835339815291,
+    "best_hyperparameters": {
+      "log10_learning_rate": -2.512955155048888,
+      "learning_rate": 0.0030693389098645093,
+      "dropout": 0.0598225586641764
+    },
+    "evals": 14784,
+    "runtime_ms": 563.1248999998206
+  },
+  "comparison": {
+    "gonm_minus_adam_final": -0.21887896601762413,
+    "gonm_minus_adam_best": -0.21887896601743306,
+    "adam_start_loss": 0.7517620045463763
+  }
+}

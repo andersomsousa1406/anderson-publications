@@ -1,0 +1,32 @@
+{
+  "theory": "T07_GONM",
+  "test": "repeated_average_terminal_ranking_error",
+  "delta": 0.05,
+  "sigma": 0.2,
+  "rows": [
+    {
+      "m": 1,
+      "estimated_ranking_error": 0.42925
+    },
+    {
+      "m": 2,
+      "estimated_ranking_error": 0.4032
+    },
+    {
+      "m": 4,
+      "estimated_ranking_error": 0.36395
+    },
+    {
+      "m": 8,
+      "estimated_ranking_error": 0.30985
+    },
+    {
+      "m": 16,
+      "estimated_ranking_error": 0.23825
+    },
+    {
+      "m": 32,
+      "estimated_ranking_error": 0.15445
+    }
+  ]
+}

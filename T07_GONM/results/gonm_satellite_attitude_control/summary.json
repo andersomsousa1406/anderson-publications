@@ -1,0 +1,57 @@
+{
+  "seed": 149,
+  "problem": "satellite_attitude_control",
+  "interpretation": "Single-axis satellite attitude stabilization under sensor noise and solar-pressure-like disturbances.",
+  "baseline_pid": {
+    "parameters": [
+      0.0,
+      0.0,
+      0.82,
+      0.46,
+      0.06
+    ],
+    "objective": 18.60488006625701,
+    "terms": {
+      "action_like": 18.60488006625701,
+      "pointing": 0.7235110693983153,
+      "jitter": 0.004208664505396217,
+      "control": 0.010648,
+      "estimator": 0.22028645720879983,
+      "terminal": 17.359333539152214,
+      "overshoot": 0.28689233599228525,
+      "final_angle": -2.1335819413328894,
+      "final_rate": -0.30654480837302317,
+      "rms_angle": 0.8505945387776219,
+      "max_abs_angle": 2.1335819413328894
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 0.11542319831079377,
+    "parameters": [
+      1.938794056688491,
+      0.9245666195532652,
+      1.2557358730482524,
+      0.13476081194218523,
+      0.03452659754521982
+    ],
+    "final_energy": 0.06301153522843311,
+    "terms": {
+      "action_like": 0.06301153522843311,
+      "pointing": 0.04708348983389008,
+      "jitter": 0.00028102867036343995,
+      "control": 0.009031946764873783,
+      "estimator": 0.0016401131876689625,
+      "terminal": 0.003281329534725798,
+      "overshoot": 0.0016936272369110518,
+      "final_angle": 0.0030900496005316237,
+      "final_rate": 0.07065676068580867,
+      "rms_angle": 0.2169873033932863,
+      "max_abs_angle": 0.42
+    },
+    "evals": 6978,
+    "runtime_ms": 27637.02899999771
+  },
+  "comparison": {
+    "gonm_minus_pid": -18.541868531028577
+  }
+}

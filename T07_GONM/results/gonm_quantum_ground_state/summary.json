@@ -1,0 +1,41 @@
+{
+  "seed": 37,
+  "problem": "quantum_ground_state_variational",
+  "potential": "0.18 x^6 - 1.55 x^4 + 2.7 x^2 + 0.10 x",
+  "interpretation": "Variational search for a 1D ground state in a double-well anharmonic potential.",
+  "baseline_local": {
+    "best_energy": 0.6794666669038324,
+    "components": {
+      "kinetic": 0.16229659259838214,
+      "potential": 0.5171700743054503
+    },
+    "parameters": {
+      "sigma_left": 1.0974719560310984,
+      "sigma_right": 0.9595417756404464,
+      "half_distance": 0.7429643186807058,
+      "amplitude_ratio": 0.27695734973714503,
+      "center_shift": 0.17681940389047068
+    }
+  },
+  "gonm": {
+    "phase1_best_energy": 0.1840885337980235,
+    "final_energy": -0.3262125393916917,
+    "components": {
+      "kinetic": 1.156975630958021,
+      "potential": -1.4831881703497127
+    },
+    "parameters": {
+      "sigma_left": 0.4390754525180897,
+      "sigma_right": 1.17519814110106,
+      "half_distance": 1.0723930776514246,
+      "amplitude_ratio": 0.1029871777582816,
+      "center_shift": -0.9
+    },
+    "evals": 14772,
+    "runtime_ms": 5188.315100000182
+  },
+  "comparison": {
+    "gonm_minus_baseline": -1.005679206295524,
+    "adam_start_energy": 25.337685754750318
+  }
+}
